@@ -1,0 +1,92 @@
+Python Important Notes
+ use control + / for commenting a paragraph
+use dir() function to get the details of a module
+use help() to get the details of a function
+*args can be used to make a function when inputs not defined
+**kwargs will be used when the input contains a key value pair like a dict
+ print(functionname.__doc__) to access documentation of a function
+=================================
+Common Functions => Applicable on all Datatypes such as strings, list, tuples, sets and Dict.
+# len
+# max
+# min 
+# sorted 
+# Sum
+=================================
+String functions = > Applicable only on strings
+# Captitalize
+# Title
+# Lower
+# upper
+# Swapcase
+Similar functions in string
+# Count
+# Find
+# Index
+Important Function in string
+# Split
+# join
+#Replace
+#Strip
+=================================
+List  functions = > Applicable only on List
+# Count
+# Index
+# Append -> Add one item at a time
+# Extend -> Add Mutilple items at one
+# Insert -> Add items according to index no.
+ Deleting functions = > Applicable only on List
+# del -> deletes the entire list or a single item 
+# remove -> removes item as per specification
+# pop -> removes item as per index
+# clear -> empties the list
+Operations in List => only 3 Operations
+# Arithemetic ( + and * )
+# Membership ( in and not in)
+# Loop
+=================================
+Tuple  functions => Applicable only on Tuple
+# Count
+# Index
+Operations in Tuple => only 3 Operations
+# Arithemetic ( + and * )
+# Membership ( in and not in)
+# Loop
+=================================
+Set  functions => Applicable only on set
+# add -> adds a single item to a set
+# update -> adds multiple item to a set using list
+# union function ->prints only unique and no duplicates 
+# isdisjoint -> checks if anything is common between sets
+# issubset -> checks if one set is a part of another set
+#issuperset -> checks if small set is a part of big set
+Deleting functions => deletes from a set
+# del -> deletes the entire set
+# discard -> deletes a single item from a set
+# remove -> throws an error when item not in list
+# pop -> randomly deletes item from a set
+# clear -> empties the set
+Operations in set  => Applicable only on set
+# union(" | ")->prints only unique and no duplicates 
+# Intersection("&")-> prints only common items
+# Difference("-")->prints the difference between set
+# Symmetric Difference("^")-> print everything except common
+# Membership ( in and not in)
+# Loop
+Frozen Set => Frozen set is immutable
+# only read functions will work on frozen sets
+===================================
+Dict  functions => Applicable only on set
+# items 
+# keys
+# values
+# update
+Deleting functions => deletes from a Dict
+# pop -> deletes item from a Dict by key reference
+# popitem -> deletes last key value from the dict
+# clear -> empties the Dict
+# del -> deletes the entire Dict
+Operations in Dictionary   => Applicable only on Dict
+# Membership ( in and not in) -> only works on keys
+# Loop
+=====================================
